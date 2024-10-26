@@ -2,7 +2,7 @@ import { Container, Col, Row } from "react-bootstrap";
 
 function Footer() {
   return (
-    <Container className="mb-2" >
+    <Container className="mt-5">
       <Row>
         <Col className="d-flex justify-content-between">
           <div className="d-flex">

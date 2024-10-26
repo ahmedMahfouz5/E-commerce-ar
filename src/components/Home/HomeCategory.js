@@ -6,7 +6,7 @@ import CategoryCard from "../Category/CategoryCard";
 function HomeCategory() {
   return (
     <Container className="mb-5">
-      <SubTitle title="التصنيفات" btnTitle="المزيد" />
+      <SubTitle title="التصنيفات" btnTitle="المزيد" path="/all-category" />
       <Row className="mx-2 justify-content-between d-flex">
         <CategoryCard
           title="اجهزة منزليه"
