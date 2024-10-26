@@ -19,7 +19,7 @@ function NavBarLogin() {
       sticky="top"
     >
       <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+        <Navbar.Brand href="/">تسوق </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse className="align-items-center">
           <Form className="d-flex justify-content-center">
@@ -37,8 +37,8 @@ function NavBarLogin() {
             style={{ maxHeight: "100px" }}
             /* navbarScroll */
           >
-            <Nav.Link href="#action1">دخول</Nav.Link>
-            <Nav.Link href="#action2">العربه</Nav.Link>
+            <Nav.Link href="/login">دخول</Nav.Link>
+            <Nav.Link href="/cart">العربه</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
