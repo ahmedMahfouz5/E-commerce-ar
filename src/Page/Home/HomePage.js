@@ -10,9 +10,9 @@ function HomePage() {
       <NavBarLogin />
       <Slider />
       <HomeCategory />
-      <CardProductsContainer />
+      <CardProductsContainer title="الاكثر مبيعا" />
       <DiscountSection />
-      <CardProductsContainer />
+      <CardProductsContainer title="الاكثر بحثا" />
     </div>
   );
 }
