@@ -11,9 +11,17 @@ function HomePage() {
       <div className="font" style={{ minHeight: "670px" }}>
         <Slider />
         <HomeCategory />
-        <CardProductsContainer title="الاكثر مبيعا" path={"/products"} />
+        <CardProductsContainer
+          title="الاكثر مبيعا"
+          path={"/products"}
+          showSubtitle={true}
+        />
         <DiscountSection />
-        <CardProductsContainer title="الاكثر بحثا" path={"/products"} />
+        <CardProductsContainer
+          showSubtitle={true}
+          title="الاكثر بحثا"
+          path={"/products"}
+        />
         <BrandFeatured />
       </div>
     </Container>

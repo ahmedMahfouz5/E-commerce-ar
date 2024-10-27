@@ -14,7 +14,7 @@ function ProductCard() {
         }}
       >
         <Card.Img
-          style={{ height: "30rem", width: "20rem" }}
+          style={{ height: "30rem", width: "100%" }}
           variant="top"
           src="https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg"
         />
