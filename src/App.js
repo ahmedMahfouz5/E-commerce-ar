@@ -6,6 +6,7 @@ import Footer from "./components/utility/Footer";
 import Login from "./Page/Auth/Login";
 import Register from "./Page/Auth/Register";
 import AllCategoryPage from "./Page/Category/AllCategoryPage";
+import AllBrandPage from "./Page/Brand/AllBrandPage";
 // Type rfce and then press Tab.
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/all-category" element={<AllCategoryPage />} />
+        <Route path="/all-brand" element={<AllBrandPage />} />
       </Routes>
       <Footer />
     </div>

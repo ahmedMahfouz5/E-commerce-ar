@@ -14,7 +14,11 @@ function BrandFeatured() {
     "https://i.pinimg.com/236x/72/b8/ab/72b8ab45bc7e1438a48c175229f7234d.jpg";
   return (
     <Container className="mb-5">
-      <SubTitle title="اشهر العلامات التجاريه" btnTitle="المزيد" />
+      <SubTitle
+        title="اشهر العلامات التجاريه"
+        btnTitle="المزيد"
+        path={"/all-brand"}
+      />
       <Row className="mx-2 my-1 justify-content-between d-flex">
         <BrandCard imageUrl={brand_1} />
         <BrandCard imageUrl={brand_2} />
